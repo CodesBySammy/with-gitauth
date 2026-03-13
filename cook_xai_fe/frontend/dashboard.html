@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | XAI Reviewer</title>
+    <!-- Modern Font: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles.css?v=2.1">
+</head>
+<body>
+    <!-- Abstract 3D Orbs for Background -->
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2" style="background: #3b82f6;"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Main Content Container -->
+    <main class="dashboard-container">
+        <!-- Header -->
+        <div class="dashboard-header glass-card" style="padding: 24px 32px; border-radius: 20px;">
+            <div class="user-profile">
+                <!-- Skeleton loader until data arrives -->
+                <div id="userAvatar" class="user-avatar" style="background: rgba(255,255,255,0.1);"></div>
+                <div class="user-info">
+                    <h2 id="userName">Loading...</h2>
+                    <p id="userHandle">@github</p>
+                </div>
+            </div>
+            
+            <div style="display: flex; gap: 16px; align-items: center;">
+                <!-- Global Status Message (absolute positioned or fixed at the top could also work, but we'll place it near headers) -->
+                <div id="statusMessage" class="status-message hidden" style="margin-top: 0; padding: 8px 16px;">
+                    <i data-feather="info" class="status-icon"></i>
+                    <p id="statusText">Status</p>
+                </div>
+                <button id="logoutBtn" class="logout-btn">
+                    <i data-feather="log-out" style="width:16px; height:16px; margin-right:4px; vertical-align:text-bottom;"></i>
+                    Sign Out
+                </button>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 24px;">
+            <h1 style="font-size: 28px;">Your Repositories</h1>
+            <p class="subtitle">Select a repository to enable intelligent pull request reviews.</p>
+        </div>
+
+        <!-- Repository Grid -->
+        <div id="repoGrid" class="repo-grid">
+            <!-- Loader -->
+            <div style="grid-column: 1 / -1; display: flex; justify-content: center; padding: 60px;">
+                <div class="btn-loader" style="position: static; width: 40px; height: 40px; border-width: 4px; border-top-color: #a855f7;"></div>
+            </div>
+            <!-- Cards injected via JS -->
+        </div>
+        
+    </main>
+
+    <script src="dashboard.js"></script>
+    <script>
+        // Init feather icons
+        feather.replace();
+    </script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+2026-03-12 18:57:28 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 18:58:00 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 18:59:36 [INFO] train_rf_model: 📊 Loading real dataset from D:\cook_xai_fe\pipelines\apachejit_train.csv...
+2026-03-12 18:59:36 [INFO] train_rf_model: 🧠 Training Random Forest Defect Predictor on Apache data...
+2026-03-12 18:59:37 [INFO] train_rf_model: 🎯 Model Accuracy: 70.95%
+2026-03-12 18:59:37 [INFO] train_rf_model: ✅ Real Apache model successfully saved to D:\cook_xai_fe\models\jit_risk_model.pkl
+2026-03-12 18:59:54 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:00:40 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:11:48 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:12:29 [INFO] repo_manager: Attempting to register webhook for repository: torvalds/linux
+2026-03-12 19:12:30 [ERROR] github_client: Failed to create webhook on torvalds/linux: HTTP 404 - {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/webhooks#create-a-repository-webhook","status":"404"}
+2026-03-12 19:16:42 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:17:23 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/qkd-bb84-simulation
+2026-03-12 19:17:24 [ERROR] github_client: Failed to create webhook on CodesBySammy/qkd-bb84-simulation: HTTP 422 - {"message":"Validation Failed","errors":[{"resource":"Hook","code":"custom","field":"url","message":"url is not supported because it isn't reachable over the public Internet (127.0.0.1)"}],"documentat
+2026-03-12 19:19:47 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:20:10 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/qkd-bb84-simulation
+2026-03-12 19:20:10 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/qkd-bb84-simulation pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 19:22:58 [INFO] webhook_receiver: Webhook Validated: PR #1 on CodesBySammy/qkd-bb84-simulation
+2026-03-12 19:22:58 [INFO] review_orchestrator: Starting Deep Python Pipeline for CodesBySammy/qkd-bb84-simulation PR #1
+2026-03-12 19:22:58 [INFO] xai_explainer: XAI Engine & SHAP loaded successfully.
+2026-03-12 19:22:59 [INFO] nlp_codebert: Loading CodeBERT (May take a moment)...
+2026-03-12 19:23:03 [INFO] nlp_codebert: ✅ CodeBERT Initialized.
+2026-03-12 19:23:03 [WARNING] nlp_codebert: CodeBERT scan failed for bad_code.py: index 514 is out of bounds for dimension 1 with size 514
+2026-03-12 19:23:04 [INFO] github_client: Review posted to PR #1
+2026-03-12 19:23:04 [INFO] pr_gatekeeper: GATEKEEPER APPROVED PR COMMIT: b8cfd43312cddfefaf1828e0335699689a9d6fc3
+2026-03-12 19:23:04 [INFO] github_client: Status check 'success' set for commit b8cfd43
+2026-03-12 19:26:50 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:27:02 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:27:12 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:27:27 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:27:35 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:27:54 [INFO] review_orchestrator: Starting Enterprise Review Pipeline for CodesBySammy/qkd-bb84-simulation PR #1
+2026-03-12 19:27:55 [INFO] xai_explainer: XAI Engine & SHAP loaded successfully.
+2026-03-12 19:27:56 [INFO] nlp_codebert: Loading CodeBERT (May take a moment)...
+2026-03-12 19:27:58 [INFO] nlp_codebert: ✅ CodeBERT Initialized.
+2026-03-12 19:27:58 [WARNING] nlp_codebert: CodeBERT scan failed for bad_code.py: index 514 is out of bounds for dimension 1 with size 514
+2026-03-12 19:27:59 [INFO] github_client: Review posted to PR #1
+2026-03-12 19:27:59 [INFO] pr_gatekeeper: GATEKEEPER APPROVED PR COMMIT: fake_sha
+2026-03-12 19:27:59 [WARNING] github_client: Status check response: HTTP 422
+2026-03-12 19:28:21 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:28:37 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:28:55 [INFO] review_orchestrator: Starting Enterprise Review Pipeline for CodesBySammy/qkd-bb84-simulation PR #1
+2026-03-12 19:28:55 [INFO] xai_explainer: XAI Engine & SHAP loaded successfully.
+2026-03-12 19:28:56 [INFO] nlp_codebert: Loading CodeBERT (May take a moment)...
+2026-03-12 19:28:59 [INFO] nlp_codebert: ✅ CodeBERT Initialized.
+2026-03-12 19:29:02 [INFO] github_client: Review posted to PR #1
+2026-03-12 19:29:02 [INFO] pr_gatekeeper: GATEKEEPER APPROVED PR COMMIT: fake_sha
+2026-03-12 19:29:02 [WARNING] github_client: Status check response: HTTP 422
+2026-03-12 19:35:17 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:35:26 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:37:30 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:37:40 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:37:52 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:38:01 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:39:00 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:39:10 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:39:25 [INFO] review_orchestrator: Starting Enterprise Review Pipeline for CodesBySammy/qkd-bb84-simulation PR #1
+2026-03-12 19:39:26 [INFO] xai_explainer: XAI Engine & SHAP loaded successfully.
+2026-03-12 19:39:27 [INFO] nlp_codebert: Loading CodeBERT (May take a moment)...
+2026-03-12 19:39:29 [INFO] nlp_codebert: ✅ CodeBERT Initialized.
+2026-03-12 19:39:49 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:40:00 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:40:10 [INFO] review_orchestrator: Starting Enterprise Review Pipeline for CodesBySammy/qkd-bb84-simulation PR #1
+2026-03-12 19:40:11 [INFO] xai_explainer: XAI Engine & SHAP loaded successfully.
+2026-03-12 19:40:11 [INFO] nlp_codebert: Loading CodeBERT (May take a moment)...
+2026-03-12 19:40:13 [INFO] nlp_codebert: ✅ CodeBERT Initialized.
+2026-03-12 19:40:15 [INFO] github_client: Review posted to PR #1
+2026-03-12 19:40:15 [INFO] pr_gatekeeper: GATEKEEPER APPROVED PR COMMIT: fake_sha
+2026-03-12 19:40:15 [WARNING] github_client: Status check response: HTTP 422
+2026-03-12 19:42:47 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:44:03 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:45:50 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/ImgHex
+2026-03-12 19:45:51 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/ImgHex pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 19:49:21 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/trail_error_xai_testcase
+2026-03-12 19:49:21 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/trail_error_xai_testcase pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 19:50:48 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:52:07 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:52:36 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/trail_error_xai_testcase
+2026-03-12 19:52:36 [ERROR] github_client: Failed to create webhook on CodesBySammy/trail_error_xai_testcase: HTTP 422 - {"message":"Validation Failed","errors":[{"resource":"Hook","code":"custom","message":"Hook already exists on this repository"}],"documentation_url":"https://docs.github.com/rest/repos/webhooks#create
+2026-03-12 19:53:24 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/sameermahindru-portfolio
+2026-03-12 19:53:25 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/sameermahindru-portfolio pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 19:55:06 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:56:29 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 19:56:45 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:58:09 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 19:59:56 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/trail_error_xai_testcase
+2026-03-12 19:59:56 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/trail_error_xai_testcase pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 20:01:05 [INFO] webhook_receiver: Webhook Validated: PR #2 on CodesBySammy/trail_error_xai_testcase
+2026-03-12 20:01:05 [INFO] review_orchestrator: Starting Enterprise Review Pipeline for CodesBySammy/trail_error_xai_testcase PR #2
+2026-03-12 20:01:06 [INFO] xai_explainer: XAI Engine & SHAP loaded successfully.
+2026-03-12 20:01:07 [INFO] nlp_codebert: Loading CodeBERT (May take a moment)...
+2026-03-12 20:01:10 [INFO] nlp_codebert: ✅ CodeBERT Initialized.
+2026-03-12 20:01:11 [INFO] github_client: Review posted to PR #2
+2026-03-12 20:01:11 [INFO] pr_gatekeeper: GATEKEEPER APPROVED PR COMMIT: 86eebdbab60b75fd3ae3e14e8b7ff244b0fb23a4
+2026-03-12 20:01:12 [INFO] github_client: Status check 'success' set for commit 86eebdb
+2026-03-12 20:03:17 [INFO] webhook_receiver: Webhook Validated: PR #2 on CodesBySammy/trail_error_xai_testcase
+2026-03-12 20:03:17 [INFO] review_orchestrator: Starting Enterprise Review Pipeline for CodesBySammy/trail_error_xai_testcase PR #2
+2026-03-12 20:03:19 [WARNING] ast_analyzer: Radon MI scan failed for bad.py: invalid syntax (<unknown>, line 5)
+2026-03-12 20:03:19 [WARNING] ast_analyzer: Radon complexity scan failed for bad.py: invalid syntax (<unknown>, line 5)
+2026-03-12 20:03:20 [INFO] github_client: Review posted to PR #2
+2026-03-12 20:03:20 [INFO] pr_gatekeeper: GATEKEEPER APPROVED PR COMMIT: 66bd9d5396d4a08a11b34246285b1853483aeb99
+2026-03-12 20:03:21 [INFO] github_client: Status check 'success' set for commit 66bd9d5
+2026-03-12 21:52:25 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 21:53:40 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 21:54:15 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 21:54:20 [INFO] repo_manager: Attempting to register webhook for repository: prassan-agarwal/igs-vit
+2026-03-12 21:54:21 [ERROR] github_client: Failed to create webhook on prassan-agarwal/igs-vit: HTTP 404 - {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/webhooks#create-a-repository-webhook","status":"404"}
+2026-03-12 21:54:26 [INFO] repo_manager: Attempting to register webhook for repository: prassan-agarwal/igs-vit
+2026-03-12 21:54:26 [ERROR] github_client: Failed to create webhook on prassan-agarwal/igs-vit: HTTP 404 - {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/webhooks#create-a-repository-webhook","status":"404"}
+2026-03-12 21:54:27 [INFO] repo_manager: Attempting to register webhook for repository: prassan-agarwal/igs-vit
+2026-03-12 21:54:27 [ERROR] github_client: Failed to create webhook on prassan-agarwal/igs-vit: HTTP 404 - {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/webhooks#create-a-repository-webhook","status":"404"}
+2026-03-12 21:54:55 [INFO] repo_manager: Attempting to register webhook for repository: prassan-agarwal/igs-vit
+2026-03-12 21:54:55 [ERROR] github_client: Failed to create webhook on prassan-agarwal/igs-vit: HTTP 404 - {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/webhooks#create-a-repository-webhook","status":"404"}
+2026-03-12 21:54:59 [INFO] repo_manager: Attempting to register webhook for repository: prassan-agarwal/igs-vit
+2026-03-12 21:54:59 [ERROR] github_client: Failed to create webhook on prassan-agarwal/igs-vit: HTTP 404 - {"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/webhooks#create-a-repository-webhook","status":"404"}
+2026-03-12 21:58:09 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 22:19:30 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 22:19:30 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 22:21:32 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 22:33:09 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 22:33:09 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 22:37:32 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 22:37:50 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 22:37:50 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 22:39:10 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/final_fe_without_gitauth
+2026-03-12 22:39:14 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/final_fe_without_gitauth
+2026-03-12 22:39:16 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/final_fe_without_gitauth
+2026-03-12 22:39:17 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/final_fe_without_gitauth
+2026-03-12 22:39:25 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/Move-It
+2026-03-12 22:40:12 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/final_fe_without_gitauth
+2026-03-12 22:40:13 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/final_fe_without_gitauth
+2026-03-12 22:40:49 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/final_fe_without_gitauth
+2026-03-12 22:41:12 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/doubtonli-be
+2026-03-12 22:41:38 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 22:41:52 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 22:41:52 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 22:42:33 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 22:42:33 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 22:42:47 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/final_fe_without_gitauth
+2026-03-12 22:42:47 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/final_fe_without_gitauth pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 22:42:57 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/final_fe_without_gitauth
+2026-03-12 22:42:57 [ERROR] github_client: Failed to create webhook on CodesBySammy/final_fe_without_gitauth: HTTP 422 - {"message":"Validation Failed","errors":[{"resource":"Hook","code":"custom","message":"Hook already exists on this repository"}],"documentation_url":"https://docs.github.com/rest/repos/webhooks#create
+2026-03-12 22:44:16 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 22:44:28 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 22:44:28 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 22:44:31 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 22:44:42 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 22:44:42 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 22:46:41 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/trail_error_xai_testcase
+2026-03-12 22:46:41 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/trail_error_xai_testcase pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 22:48:57 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/ImgHex
+2026-03-12 22:48:58 [ERROR] github_client: Failed to create webhook on CodesBySammy/ImgHex: HTTP 422 - {"message":"Validation Failed","errors":[{"resource":"Hook","code":"custom","message":"Hook already exists on this repository"}],"documentation_url":"https://docs.github.com/rest/repos/webhooks#create
+2026-03-12 22:49:06 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/ImgHex
+2026-03-12 22:49:07 [ERROR] github_client: Failed to create webhook on CodesBySammy/ImgHex: HTTP 422 - {"message":"Validation Failed","errors":[{"resource":"Hook","code":"custom","message":"Hook already exists on this repository"}],"documentation_url":"https://docs.github.com/rest/repos/webhooks#create
+2026-03-12 22:49:16 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/ImgHex
+2026-03-12 22:49:16 [ERROR] github_client: Failed to create webhook on CodesBySammy/ImgHex: HTTP 422 - {"message":"Validation Failed","errors":[{"resource":"Hook","code":"custom","message":"Hook already exists on this repository"}],"documentation_url":"https://docs.github.com/rest/repos/webhooks#create
+2026-03-12 22:50:03 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 22:50:29 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 22:50:29 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 22:51:06 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/ImgHex
+2026-03-12 22:51:07 [ERROR] github_client: Failed to create webhook on CodesBySammy/ImgHex: HTTP 422 - {"message":"Validation Failed","errors":[{"resource":"Hook","code":"custom","message":"Hook already exists on this repository"}],"documentation_url":"https://docs.github.com/rest/repos/webhooks#create
+2026-03-12 22:51:08 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/ImgHex
+2026-03-12 22:51:08 [ERROR] github_client: Failed to create webhook on CodesBySammy/ImgHex: HTTP 422 - {"message":"Validation Failed","errors":[{"resource":"Hook","code":"custom","message":"Hook already exists on this repository"}],"documentation_url":"https://docs.github.com/rest/repos/webhooks#create
+2026-03-12 22:51:11 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/ImgHex
+2026-03-12 22:51:11 [ERROR] github_client: Failed to create webhook on CodesBySammy/ImgHex: HTTP 422 - {"message":"Validation Failed","errors":[{"resource":"Hook","code":"custom","message":"Hook already exists on this repository"}],"documentation_url":"https://docs.github.com/rest/repos/webhooks#create
+2026-03-12 22:54:48 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 22:54:48 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 22:55:48 [WARNING] repo_manager: Webhook missing on GitHub for CodesBySammy/trail_error_xai_testcase. Auto-healing DB.
+2026-03-12 22:56:08 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/trail_error_xai_testcase
+2026-03-12 22:56:09 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/trail_error_xai_testcase pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 22:56:26 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/ImgHex
+2026-03-12 22:56:27 [INFO] github_client: ✅ Webhook already exists on CodesBySammy/ImgHex
+2026-03-12 22:56:43 [WARNING] repo_manager: Webhook missing on GitHub for CodesBySammy/trail_error_xai_testcase. Auto-healing DB.
+2026-03-12 22:56:50 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/trail_error_xai_testcase
+2026-03-12 22:56:50 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/trail_error_xai_testcase pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 23:03:20 [INFO] main: 🛑 Enterprise XAI Server shutting down.
+2026-03-12 23:05:08 [INFO] database: ✅ Connected to MongoDB Atlas for Multi-Tenant Token Storage.
+2026-03-12 23:05:09 [INFO] main: 🚀 Enterprise XAI Server starting up...
+2026-03-12 23:06:00 [WARNING] repo_manager: Webhook missing on GitHub for CodesBySammy/trail_error_xai_testcase. Auto-healing DB.
+2026-03-12 23:06:02 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/trail_error_xai_testcase
+2026-03-12 23:06:03 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/trail_error_xai_testcase pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 23:06:14 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/sameermahindru-portfolio
+2026-03-12 23:06:15 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/sameermahindru-portfolio pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook
+2026-03-12 23:06:21 [INFO] repo_manager: Attempting to register webhook for repository: CodesBySammy/task_management_be
+2026-03-12 23:06:22 [INFO] github_client: ✅ Successfully created webhook on CodesBySammy/task_management_be pointing to https://cellarless-kori-opposedly.ngrok-free.dev/api/webhook

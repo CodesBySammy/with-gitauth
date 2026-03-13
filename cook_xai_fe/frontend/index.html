@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XAI Reviewer | AI Powered Code Analysis</title>
+    <!-- Modern Font: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles.css?v=2.1">
+</head>
+
+<body>
+    <!-- Abstract 3D Orbs for Background -->
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        <!-- Glassmorphism Card -->
+        <div class="glass-card tilt-card" id="mainCard">
+
+            <header class="header">
+                <div class="logo-container">
+                    <i data-feather="cpu" class="logo-icon"></i>
+                </div>
+                <h1>Enterprise <span class="text-gradient">XAI</span></h1>
+                <p class="subtitle">Explainable AI Pull Request Reviewer</p>
+            </header>
+
+            <div class="content">
+                <p class="description">
+                    Connect your GitHub repository instantly. Our ML engines will analyze every pull request for
+                    architectural risk, semantic vulnerabilities, and code complexity.
+                </p>
+
+                <!-- Auth Section -->
+                <div id="authSection" class="auth-section"
+                    style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+                    <a href="/api/auth/login" class="premium-btn github-login-btn"
+                        style="text-decoration: none; display: inline-flex;">
+                        <i data-feather="github" class="btn-icon"></i>
+                        <span class="btn-text">Sign in with GitHub</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><i data-feather="shield"></i></div>
+                    <span class="feature-text">CodeBERT SEC-SCAN</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><i data-feather="git-pull-request"></i></div>
+                    <span class="feature-text">AST Analysis</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><i data-feather="activity"></i></div>
+                    <span class="feature-text">SHAP Explainer</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+    <script>
+        // Init feather icons
+        feather.replace();
+    </script>
+</body>
+
+</html>
